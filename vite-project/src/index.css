@@ -1,0 +1,206 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+
+ .body{
+    font-family: 'Noto Serif', sans-serif;
+ }
+.main-container{
+    display: inline-flex;
+    font-family: 'Noto Serif', sans-serif;
+    background-color: rgb(240, 235, 230);
+
+    
+}
+.leftside{
+    display:flex;
+    flex-direction: column;
+}
+.middle{
+    display:flex;
+    flex-direction: column;
+}
+.rightside{
+    display: flex;
+    flex-direction: column;
+}
+.main-container
+
+.vertical-navbar-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(209, 213, 214, 0.918);
+    height: 1000px;
+    width: 90px;
+    list-style: none;
+    border-radius: 15px;
+   
+    
+}
+
+.vertical-navbar-list{
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+    height: 500px;
+    padding-left:5px;
+    
+
+ 
+   
+}
+.vertical-navbar-list li{
+    margin-top: 60px;
+    
+    
+}
+.searchbar-container{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin-bottom: 1px;
+
+}
+.searchbar-container input{
+    width:600px;
+    height: 35px;
+    background-color: rgba(209, 213, 214, 0.918);
+    border: none;
+    border-radius: 8px;
+    
+    
+
+}
+.simple-forecast-container{
+    display: flex;
+    height: 250px;
+    width: 600px;
+    background-color: white;
+    
+}
+.simple-forecast-container img{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  
+}
+.simple-forecast-text-container{
+    display:flex;
+    flex-direction: column;
+    margin-left: 40px;
+
+    
+}
+#simple-forecast-location{
+    font-size: 25px;
+}
+.hourly-forecast-main-container {
+   background-color: rgba(209, 213, 214, 0.918);
+   border-radius: 10px;
+   height: 230px;
+   width: 600px;
+   margin: 50px 10px 10px 10px
+    
+    
+}
+.hourly-forecast-main-container h4{
+    display:flex;
+    margin-left:30px;
+    
+    
+}
+.hourly-forecast-data-container{
+ 
+    list-style: none;
+}
+.hourly-forecast-items-list{
+    display:flex;
+    width: 600px;
+    flex-direction: row;
+    list-style: none;
+}
+.hourly-forecast-data-item{
+    list-style: none;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    
+    
+
+}
+.hourly-forecast-data-item-temperature{
+    margin-top: 30px;
+}
+.airconditions-main-container{
+    background-color: rgba(209, 213, 214, 0.918);
+    border-radius: 20px;
+    margin-left:10px;
+    margin-right: 10px;
+    height:300px;
+   
+}
+.airconditions-top{
+    display: flex;
+}
+.airconditions-top h4{
+    font-size: 20px;
+    margin-left:20px;
+}
+#airconditions-button{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 30px;
+    background-color:rgb(188, 255, 255);
+    border-radius: 10px;
+    border:none;
+    text-decoration: none;
+    text-align: center;
+    padding-top:5px;
+    padding-left:20px;
+    width:100px;
+    height:25px;
+}
+.airconditions-items-container{
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    height: 150px;
+    
+}
+.airconditions-right{
+    margin-left: auto;
+
+}
+.airconditions-left{
+    margin-right: auto;
+}
+.sdf-main-container{
+    margin-top: 45px;
+    background-color: rgba(209, 213, 214, 0.918);
+    border-radius: 20px;
+}
+.sdf-itemlist-container{
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+  
+}
+.sdf-item-block{
+    display:flex;
+    flex-direction: row;
+    margin-top: 40px;
+   
+
+}
+.sdf-item-block h4{
+    margin-right: auto;
+}
+.sdf-item-block img{
+    align-items: center;
+}
+.sdf-item-block p{
+    align-items: center;
+}
+.sdf-item-block h5{
+    margin-left: auto;
+}
